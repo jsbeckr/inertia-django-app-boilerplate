@@ -1,0 +1,21 @@
+{% load render_bundle from webpack_loader %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>InertjaJS Django Example 🤘</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Django InertiaJS Example">
+  {% comment %} {% render_bundle 'main' 'css' %} {% endcomment %}
+</head>
+
+<body>
+  {% comment %} easier to do it this way... take a look at assets/js/index.js {% endcomment %}
+  {{ page|json_script:"page" }}
+  <div id="app"></div>
+  {% render_bundle 'main' 'js' %}
+</body>
+
+</html>

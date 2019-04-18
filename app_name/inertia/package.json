@@ -1,0 +1,27 @@
+{
+  "name": "inertia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack --watch --progress --hide-modules"
+  },
+  "author": "Jens Becker",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.28.4",
+    "webpack-bundle-tracker": "^0.4.2-beta",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "inertia-vue": "github:inertiajs/inertia-vue",
+    "vue": "^2.6.10"
+  }
+}
