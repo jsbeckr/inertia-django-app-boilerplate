@@ -25,6 +25,7 @@ INSTALLED_APPS = [
   'my_app',
 
   'webpack_loader',
+  'rest_framework',
 
   # ...
 ]
