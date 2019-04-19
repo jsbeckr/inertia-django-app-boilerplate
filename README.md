@@ -15,7 +15,7 @@ $ ./manage.py migrate
 Start a django app with this template:
 
 ```bash
-$ ./manage.py startapp --template https://TODO my_app
+$ ./manage.py startapp --template=https://github.com/jsbeckr/inertia-django-app-boilerplate/releases/download/v0.1.0/boilerplate.zip my_app
 ```
 
 Add apps to INSTALLED_APPS in settings.py:
