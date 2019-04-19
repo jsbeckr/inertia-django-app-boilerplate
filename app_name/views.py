@@ -3,4 +3,4 @@ from inertia import render_inertia
 
 
 def index(request):
-    return render_inertia(request, 'Index', 'index.html')
+    return render_inertia(request, 'Index')
